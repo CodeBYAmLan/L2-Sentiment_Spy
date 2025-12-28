@@ -53,7 +53,7 @@ while True:
     if polarity > 0.25:
         sentiment_type = "Positive"
         color = Fore.GREEN
-        emoji = ""
+        emoji = "😃"
     elif polarity < -0.25:
         sentiment_type = "Negative"
         color = Fore.RED
